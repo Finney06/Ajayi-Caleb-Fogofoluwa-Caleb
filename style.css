@@ -78,7 +78,7 @@ header p {
 }
 
 section {
-    /* padding: 0 0.5rem 0 0.5rem; */
+    padding: 0 0.5rem 0 0.5rem;
     font-size: 1.4rem;
     margin-bottom: 6rem;
 }
@@ -105,11 +105,11 @@ i {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     gap: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 footer button {
@@ -135,4 +135,9 @@ footer button {
     100% {
       transform: translateY(0);
     }
+  }
+
+  footer a {
+        color: var(--button);
+        font-size: 1.2rem;
   }
