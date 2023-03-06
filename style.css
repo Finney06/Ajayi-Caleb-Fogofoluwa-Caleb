@@ -116,7 +116,7 @@ footer {
 footer button {
     font-family: 'Golos Text', sans-serif;
     background-color: var(--button);
-    padding: .5rem;
+    padding: .9rem .5rem .9rem .5rem;
     border: 0;
     font-size: 1.4rem;
     border-radius: 1rem;
@@ -126,6 +126,11 @@ footer button {
 .bounce-button {
     animation: bounce 1s infinite;
   }
+
+.contact {
+    color: white;
+    margin-left: .5rem;
+}
   
   @keyframes bounce {
     0% {
@@ -142,4 +147,14 @@ footer button {
   footer a {
         color: var(--button);
         font-size: 1.2rem;
+  }
+
+  @media (max-width:375px) {
+    footer {
+        gap: 0.5rem;
+    }
+
+    section {
+        padding: 0;
+    }
   }
