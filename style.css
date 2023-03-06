@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  /* GRADIENT */
+  --blue-top: #034e68;
+  --black-down: #040612;
+  /* TEXT  */
+  --H1-color: #071533;
+  --contact: #17295a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* scroll-behavior: smooth; */
+}
+
