@@ -116,9 +116,10 @@ footer {
 footer button {
     font-family: 'Golos Text', sans-serif;
     background-color: var(--button);
+    text-align: center;
     padding: .9rem .5rem .9rem .5rem;
     border: 0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
     color: white;
 }
@@ -156,5 +157,9 @@ footer button {
 
     section {
         padding: 0;
+    }
+
+    footer button {
+      font-size: 1.33rem;
     }
   }
