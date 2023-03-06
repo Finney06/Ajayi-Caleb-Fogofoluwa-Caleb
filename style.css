@@ -78,7 +78,7 @@ header p {
 }
 
 section {
-    padding: 0 0.5rem 0 0.5rem;
+    /* padding: 0 0.5rem 0 0.5rem; */
     font-size: 1.4rem;
     margin-bottom: 6rem;
 }
@@ -93,6 +93,7 @@ ul {
 
 li {
     list-style: none;
+    font-size: 1.4rem;
     margin-bottom: .5rem;
     font-weight: 500;
 }
