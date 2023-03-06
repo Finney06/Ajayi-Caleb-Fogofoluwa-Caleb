@@ -63,7 +63,7 @@ header img {
     border: 2px solid #fff;
     position: absolute;
     top: 9rem;
-    left: 13.5rem;
+    left: calc(50% - 2.5rem - 26.5px);
 }
 
 header h1 {
@@ -74,9 +74,11 @@ header h1 {
 header p {
     text-transform: uppercase;
     font-size: 1.8rem;
+    font-weight: 500;
 }
 
 section {
+    padding: 0 0.5rem 0 0.5rem;
     font-size: 1.4rem;
     margin-bottom: 6rem;
 }
@@ -91,12 +93,13 @@ ul {
 
 li {
     list-style: none;
+    margin-bottom: .5rem;
+    font-weight: 500;
 }
 
-ul::before {
-    list-style-image: url(Images/play-solid.svg);
-    width: 3rem;
-    height: 3rem;
+i {
+    color: #16204B;
+    margin-right: .5rem;
 }
 
 footer {
